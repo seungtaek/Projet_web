@@ -1,0 +1,51 @@
+
+.add_page_container {
+    height:100%;
+    background-color: burlywood;
+    margin-right: -20px;
+    margin-left: -10px; 
+}
+
+.page_title_edit {
+    display: block;
+    text-align: center;
+
+}
+
+.page_content_edit {
+    display: block;
+    text-align: center;
+}
+
+.add_page {
+    display: block;
+    background-color: cornflowerblue;
+}
+
+.input_container_edit {
+    vertical-align: center;
+    display: block;
+    height: 60%;
+    width: 40%;
+    padding-top: 30px;
+    border-style: solid;
+    border: 0.2px 0.2px 0.2px 0.2px;
+    border-color: coral;
+
+}
+
+.down {
+border: 2px solid #7da5ff;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 30px;
+    border-radius: 10px;
+    box-shadow: 5px 5px #b4abcd;
+    margin-top: 30px;
+
+}
+.liste {
+    color: red;
+
+}

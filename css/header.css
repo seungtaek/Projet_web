@@ -1,0 +1,193 @@
+/* pour utiliser les %age */
+
+#global_size {
+    height: 100%;
+    width: 100%;
+}
+
+/* notre header */
+
+#header_containt {
+    height: 15%;
+    background-color: coral; 
+    margin-top: -10px;
+    margin-right: -20px;
+    margin-left: -10px;  /* ces margin cachent l'espace créé automatiquement par la balise <html> */
+}
+
+/* bouton avec home icone pour rediriger sur la page d'acceuil */
+
+
+.home_button {
+    display: inline-block;
+}
+
+.home_img {
+    width: 30px;
+    height: 40%;
+    margin-left: 20px;
+    margin-top: 30px; 
+    display: inline-block;
+    color: sienna;
+}
+
+#display_header_links {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+
+#community {
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#community:hover {
+    transition: ease-in-out 0.3s;
+    background-color: rgb(240, 187, 134);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#pages {
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.dropdown_pages {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_pages_content {
+    display: none;
+    position: absolute;
+    background-color: sandybrown;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown_pages_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  
+}
+
+.dropdown_pages_content a:hover {
+    background-color: rgb(247, 216, 185);
+    border-radius: 5px 5px 5px 5px; 
+    transition: ease-in-out 0.3s;
+}
+
+.dropdown_pages:hover .dropdown_pages_content {
+    display: block;
+    border-radius: 5px 5px 5px 5px; 
+    background-color: rgb(240, 187, 134);
+    transition: ease-in-out 0.3s;
+}
+
+.dropdown_pages:hover #pages {
+    transition: ease-in-out 0.3s;
+    background-color: rgb(240, 187, 134);
+    border-radius: 5px 5px 5px 5px; 
+}
+
+#account {
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+}
+
+#account:hover {
+    transition: ease-in-out 0.3s;
+    background-color: rgb(240, 187, 134);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#about {
+    font-size: 23px;
+    text-decoration: none;
+    color: white;
+}
+
+#about:hover {
+    transition: ease-in-out 0.3s;
+    background-color: rgb(240, 187, 134);
+    border-radius: 5px 5px 5px 5px;
+}
+
+#admin_space {
+    font-size: 23px;
+    color: red;
+    text-decoration: none;
+}
+
+#admin_space:hover {
+    transition: ease-in-out 0.3s;
+    background-color: rgb(240, 187, 134);
+    border-radius: 5px 5px 5px 5px;
+}
+
+/* Display correctement les champs de connexion */
+.display_header_connection_fields {
+    float: right;
+    height: 20px; 
+    display: block;
+    padding-top: 10px;
+    padding-right: 15px;
+    
+}
+
+.connection_button {
+    color: blue;
+    
+}
+
+.help_account {
+    display: block;
+    text-align: center;
+}
+
+.password_forgotten {
+    display: inline;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(240, 12, 12);
+}
+
+.account_creation:hover {
+    transition: ease-in-out 0.3s;
+    background-color: rgb(240, 187, 134);
+    border-radius: 4px 4px 4px 4px;
+}
+
+.account_creation {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    text-shadow: rgb(252, 200, 182) 3px 3px;
+}
+
+
+.disconnect_link {
+    text-decoration: none;
+    color: white;
+}
+
+.disconnect_link:hover {
+    transition: ease-in-out 0.3s;
+    background-color: rgb(224, 50, 50);
+    border-radius: 4px 4px 4px 4px;
+}
+
+
+.username_display {
+    color: white;
+    font-size: 18px;
+}

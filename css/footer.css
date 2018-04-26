@@ -1,0 +1,51 @@
+.footer_containt {
+    background-color: coral;
+    height: 20%;
+    margin-bottom: -10px;
+    margin-right: -20px;
+    margin-left: -10px;
+}
+
+.mentions {
+    display: block;
+    text-align: center;
+}
+
+.mention_about {
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Pour mettre un peu de style sur les liens */
+
+.mention_about:hover {
+    transition: ease-in-out 0.5s;
+    background-color: rgb(240, 187, 134);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.mention_help {
+    display: inline;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.mention_help:hover {
+    transition: ease-in-out 0.5s;
+    border-radius: 5px 5px 5px 5px;
+    background-color:rgb(240, 187, 134);
+}
+
+.mention_separate {
+    font-size: 20px;
+    color: grey;
+}
+
+.trademark_terms {
+    display: block;
+    text-align: center;
+}
