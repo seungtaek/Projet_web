@@ -24,7 +24,7 @@ $count = $page->rowCount();
             echo('<div class="down">Contenu:'.$row["contenu"].'</div>');
         }
 
-        echo "<div class='liste'>Liste des commentaires :</div>";
+        echo "<div class='liste'>Liste des commentaires </div>";
         $commentaires=$dbh->prepare('SELECT * from commentaire where id_question = '.$_GET["id"].' ORDER BY date');
         $commentaires->execute();
 
@@ -34,9 +34,10 @@ $count = $page->rowCount();
             $requete = "SELECT pseudo FROM users WHERE id=".$row["id_auteur"];
             $pseudo = $dbh->query($requete);
             $pseudo2 = $pseudo->fetch();
-           echo('<p>'.$pseudo2["pseudo"]." a écrit le : ");
+           echo('<p class="time">'.$pseudo2["pseudo"]." a écrit le : ");
             echo($row["date"]."</p>");
-            echo $row["contenu"];
+            /*echo $row["contenu"];*/
+            echo '<div class="comment">' . $row["contenu"] . '</div>';
             echo "<br>";
 
         }
@@ -66,12 +67,13 @@ $count = $page->rowCount();
 if(connected($dbh))
 {
 ?>
-<p>Ajouter un commentaire sur cette page</p>
-<form action="#" method="POST">
-<textarea name="textComm" ></textarea>
+<p class="ajouter">Ajouter un commentaire sur cette page</p>
+<div class="box">
+    <form action="#" method="POST">
+    <textarea name="textComm" ></textarea>
  <input name="addComment" value="OK" type="submit"/>
 </form>
-
+    </div>
 
 
 <?php

@@ -1,0 +1,25 @@
+.titre {
+    border: 2px solid #ff9cc6;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.date {
+    border: 2px solid #9fbfff;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 7px;
+    border-radius: 10px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #4a85cc;
+    margin: 1em 0;
+    padding: 0;
+}

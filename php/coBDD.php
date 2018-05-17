@@ -127,7 +127,7 @@ function checkAccount($dbh)
                 </a> 
             </div>
             <div id="display_header_links">
-                <a href="../html/forum.html" id="community">Communaute</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="pages.php" id="community">Communaute</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <div class="dropdown_pages">
                     <a href="../html/pages.html" id="pages">Pages</a>&nbsp;&nbsp;&nbsp;&nbsp;
                     <div class="dropdown_pages_content">
@@ -152,11 +152,10 @@ function checkAccount($dbh)
 
 
                          <!-- a mettre les titres des dernières pages -->
-                        <a href="..html/pages.html">Voir tout</a>
                     </div>
                 </div>
                 <?php if(connected($dbh)) { ?>
-                <a href="../html/account.html" id="account">Compte</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="account.php" id="account">Compte</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <?php } ?>
                 <a href="..html/about.html" id="about">&Agrave; propos</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 <?php if(isadmin($dbh)) { ?>
